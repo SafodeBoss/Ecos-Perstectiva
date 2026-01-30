@@ -13,3 +13,29 @@ h1 {
 p {
     color: #cccccc;
 }
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #00ffcc;
+    color: black;
+    border-radius: 5px;
+}
